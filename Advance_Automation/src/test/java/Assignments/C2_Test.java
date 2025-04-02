@@ -28,7 +28,7 @@ public class C2_Test {
 	
 	@Parameters("browser")
     @Test(groups= {"Integration"})
-	public void loginTest(String browser) throws InterruptedException, IOException 
+	public void loginTestcheck(String browser) throws InterruptedException, IOException 
 	{
 
 		WebDriver driver = null;
